@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "z-data-science-repository"
+version = "0.1.0"
+description = "Data science repository for experiment with data"
+authors = ["Santiago Higuita <santiagohiguitau1030@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<=3.11"
+ipykernel = "^6.29.5"
+matplotlib = "^3.9.2"
+kaggle = "^1.6.17"
+ucimlrepo = "^0.0.7"
+pandas = "2.1.1"
+numpy = "1.26.4"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
